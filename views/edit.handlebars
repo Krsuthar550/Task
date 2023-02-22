@@ -1,0 +1,8 @@
+<div class="edit-container">
+    <form action="/tasks/{{updatedata._id}}?_method=PUT" method="post" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="_method" value="PUT">
+<label for="">Task</label>
+<input type="text" name="task" value="{{updatedata.task}}">
+<button type="submit">Submit</button>
+</form>
+</div>

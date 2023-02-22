@@ -1,0 +1,33 @@
+*{
+    margin: 0%;
+    
+}
+
+body{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./hd-wallpaper-4051288.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:lightgreen;
+
+}
+.container{
+    font-size: 30px;
+    align-items: center;
+
+}
+
+
+
+.edit-container{
+    /* background-color: aqua; */
+    margin-top: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
